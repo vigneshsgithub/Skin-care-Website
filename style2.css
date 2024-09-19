@@ -1,0 +1,19 @@
+.circle{
+    margin-top:50px;
+    display:flex;
+    grid-template-columns: 1fr 13fr;
+    justify-content: center;
+   
+}
+.rectangle{
+    display:flex;
+    grid-template-columns: 1fr 10fr;
+    justify-content: center;
+}
+.one{
+    color:whitesmoke;
+}
+.two{
+    text-align: center;
+    font-size: xx-large;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <h1 class="one"><ins>Canvas Types</ins></h1>
+    <p class="para">The Canvas element is only a container for graphics. You must use JavaScript to actually draw the graphics</p>
+    <div class="two">
+        <h2>Drawing a Line: </h2>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid black;">
+    Your browser does not support the HTML canvas tag.</canvas>
+    <script>
+    var c = document.getElementById("myCanvas").getContext("2d");
+    c.moveTo(0,0);
+    c.lineTo(200,100);
+    c.stroke();
+    </script>
+    </div>
+    <br><br><br><br><br>
+    <div class="three">
+        <h2>Drawing Images:</h2>
+        <img id="scream" width="220" height="277"src="https://clipground.com/images/product-png-6.png" ><canvas id="myCanvas" width="240" height="297" style="border:1px solid black;">
+</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var img = document.getElementById("scream");
+ctx.drawImage(img, 10, 10);
+</script>
+    </div>
+    
+</body>
+</html>

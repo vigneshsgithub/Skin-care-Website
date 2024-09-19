@@ -1,0 +1,14 @@
+.one{
+    border-style: solid;
+    border-radius: 10px;
+    display:inline-block;
+    padding:30px;
+    margin-top: 40px;
+    border-color: black;
+}
+.header{
+    background-color: black;
+    color:white;
+    padding:20px;
+    margin-bottom: 20px;
+}
